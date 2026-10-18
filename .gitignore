@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Model weights (Ultralytics auto-downloads YOLO weights on first run)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Video outputs & temporary test files
+output*.mp4
+test_output*.mp4
+*.avi
+*.mov
+
+# Scratch & debug images (preserve assets/ for documentation)
+debug_output*.jpg
+grid_frame.jpg
+check_points.jpg
+first_frame.jpg
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and runtime artifacts
+*.log
+.system_generated/
